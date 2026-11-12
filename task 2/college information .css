@@ -1,1 +1,82 @@
+<body>
 
+<header>
+    <h1>ABC College of Engineering</h1>
+    <p>Knowledge • Innovation • Excellence</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="banner" id="home">
+    <h2>Welcome to ABC College</h2>
+    <p>Building Bright Futures Through Quality Education</p>
+</section>
+
+<section class="container" id="about">
+    <h2>About Our Institution</h2>
+    <p>Our college provides quality education, practical knowledge,
+    and career opportunities for students.</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Departments</h3>
+            <p>CSE, ECE, EEE, Mechanical and Civil Engineering.</p>
+        </div>
+
+        <div class="card">
+            <h3>Courses</h3>
+            <p>B.Tech, M.Tech and Diploma programs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Faculty Profiles</h3>
+            <p>Experienced and qualified teaching professionals.</p>
+        </div>
+
+        <div class="card" id="admissions">
+            <h3>Admissions</h3>
+            <p>Apply online and follow the admission procedure.</p>
+        </div>
+
+        <div class="card" id="facilities">
+            <h3>Campus Facilities</h3>
+            <p>Library, laboratories, classrooms, sports and hostel.</p>
+        </div>
+
+        <div class="card">
+            <h3>Events</h3>
+            <p>Workshops, seminars, cultural festivals and sports events.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="departments">
+    <h2>Our Departments</h2>
+    <div class="cards">
+        <div class="card"><h3>Computer Science</h3><p>Programming and Technology</p></div>
+        <div class="card"><h3>Electronics</h3><p>Communication and Electronics</p></div>
+        <div class="card"><h3>Mechanical</h3><p>Machines and Manufacturing</p></div>
+        <div class="card"><h3>Civil</h3><p>Construction and Design</p></div>
+    </div>
+</section>
+
+<section class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@abccollege.edu</p>
+    <p>Phone: +91 9876543210</p>
+    <p>Address: Vijayawada, Andhra Pradesh, India</p>
+</section>
+
+<footer>
+    <p>© 2026 ABC College of Engineering. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
