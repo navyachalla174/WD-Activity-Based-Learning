@@ -1,1 +1,99 @@
+<body>
+
+<header>
+    <h1>LearnOnline</h1>
+    <p>Learn Anytime, Anywhere</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#categories">Categories</a>
+    <a href="#courses">Courses</a>
+    <a href="#progress">Progress</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="banner" id="home">
+    <h2>Welcome to E-Learning Platform</h2>
+    <p>Improve Your Skills and Build Your Future</p>
+</section>
+
+<section class="container" id="categories">
+    <h2>Course Categories</h2>
+
+    <div class="cards">
+        <div class="card"><h3>💻 Programming</h3><p>Learn Python, Java and C.</p></div>
+        <div class="card"><h3>🌐 Web Development</h3><p>Learn HTML, CSS and JavaScript.</p></div>
+        <div class="card"><h3>🤖 Artificial Intelligence</h3><p>Explore AI and Machine Learning.</p></div>
+    </div>
+</section>
+
+<section class="container" id="courses">
+    <h2>Popular Courses</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="thumbnail">▶</div>
+            <h3>Python Programming</h3>
+            <p><b>Instructor:</b> John Smith</p>
+            <p>Learn Python basics, loops, functions and programming.</p>
+            <p><b>Objectives:</b> Write programs and solve problems.</p>
+            <button onclick="alert('Python course enrolled successfully!')">Enroll Now</button>
+        </div>
+
+        <div class="card">
+            <div class="thumbnail">▶</div>
+            <h3>Web Development</h3>
+            <p><b>Instructor:</b> David Kumar</p>
+            <p>Learn HTML, CSS and JavaScript to create websites.</p>
+            <p><b>Objectives:</b> Design responsive web pages.</p>
+            <button onclick="alert('Web Development course enrolled successfully!')">Enroll Now</button>
+        </div>
+
+        <div class="card">
+            <div class="thumbnail">▶</div>
+            <h3>Artificial Intelligence</h3>
+            <p><b>Instructor:</b> Sarah Wilson</p>
+            <p>Understand AI concepts and machine learning basics.</p>
+            <p><b>Objectives:</b> Understand intelligent systems.</p>
+            <button onclick="alert('AI course enrolled successfully!')">Enroll Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="container" id="progress">
+    <h2>Learning Progress</h2>
+
+    <div class="card">
+        <p>Python Programming - 70%</p>
+        <div class="progress">
+            <div class="progress-bar" style="width:70%"></div>
+        </div>
+
+        <p>Web Development - 50%</p>
+        <div class="progress">
+            <div class="progress-bar" style="width:50%"></div>
+        </div>
+
+        <p>Artificial Intelligence - 30%</p>
+        <div class="progress">
+            <div class="progress-bar" style="width:30%"></div>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: learnonline@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+</section>
+
+<footer>
+    <p>© 2026 LearnOnline. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
 
